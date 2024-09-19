@@ -36,3 +36,7 @@ jobs:
       - name: demo
         run: |
           echo "hello in build"
+          ps
+          whoami
+          ls /
+          ls ~/
